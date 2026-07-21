@@ -16,4 +16,4 @@ the text redactor
 /com.getpath              // write path. it will not saving to the file
 ```
 > [!IMPORTANT]
-> Case save
+> Case matters, so be careful. If a command is written in the wrong case, it won't execute.
