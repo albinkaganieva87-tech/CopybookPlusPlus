@@ -1,4 +1,4 @@
-﻿
+
 public class Text
 {
     public static string? text { get; set; }
@@ -129,7 +129,7 @@ public class Creating
         while(i)
         {
             int line = 1;
-            Console.Write($"[FILE REDACT] || "); string text = Console.ReadLine();
+            Console.Write($"[FILE] || "); string text = Console.ReadLine();
             line++;
             if (text == "/com.save.ex") { saving(); Program.Main(); }
             else if (text == "/com.getpath") { Console.WriteLine(Path.GetFullPath(fn)); }
