@@ -8,6 +8,7 @@ the text redactor
 /del  [filepath]         //delete file
 /op   [filepath]         //open file
 /ex                      //exit from a program
+// [text]                //comment
 ```
 ## in redact
 ```CopybookPPTerminalSyntax
